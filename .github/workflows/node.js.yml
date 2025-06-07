@@ -26,6 +26,6 @@ jobs:
     - name: Install Dependencies  
       run: npm install
     - name: Start The Project
-      run: npm run start
+      run: npm run start &
     - name: "Integration Tests"
       run: npm test
